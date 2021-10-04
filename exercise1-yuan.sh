@@ -1,0 +1,1 @@
+ls -l $1| cut -b 2-4 | tail -n +2 | sort | uniq | wc -l
